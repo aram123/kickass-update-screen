@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    {{{body}}}
+  </body>
+  <script src="/build/js/main.js"></script>
+  <script>
+      $(document).ready(function(){
+          showDialog("update");
+          loop();
+      });
+  </script>
+</html>
