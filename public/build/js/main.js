@@ -15020,7 +15020,7 @@ $('button').on('click', function (e) {
 
         showDialog("please wait...");
     }, 1000);
-    $.get('/users',function(response){
+    $.get('/update',function(response){
         explode(dialog, e.pageX, e.pageY);
         setTimeout(function () {
             $(dialog).css('z-index', 1);
