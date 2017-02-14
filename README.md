@@ -10,7 +10,7 @@ $ git clone https://github.com/aram123/kickass-update-screen.git
 
 kickass-update-screen requires [Node.js](https://nodejs.org/) v4+ to run.
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies.
 
 ```sh
 $ cd kickass-update-screen
