@@ -10,7 +10,10 @@
   <script src="/build/js/main.js"></script>
   <script>
       $(document).ready(function(){
-          showDialog("update");
+          window.initialMessage = '{{initialMessage}}';
+          var waitMessage = '{{waitMessage}}';
+          window.finishMessage = '{{finishMessage}}';
+          showDialog(initialMessage);
           loop();
       });
   </script>

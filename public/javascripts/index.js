@@ -261,9 +261,9 @@ $('button').on('click', function (e) {
 
         setTimeout(function () {
             shaker.classList.remove('is-shaking');
-            $("button").show();
+            $("#finish-message").show();
             $(dialog).css('z-index', 10);
-            showDialog("done!");
+            showDialog(window.initialMessage);
             $("body").off("click", "button");
         }, 1000);
     });
