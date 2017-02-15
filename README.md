@@ -22,8 +22,19 @@ Start server
 ```sh
 $ npm start
 ```
-Open in browser
+####Open in browser
 By default kickass-update-screen uses port 3000, your app is ready on [http://127.0.0.1:3000](http://127.0.0.1:3000)
+
+### Configs
+Configs can be customized inside the config/settings.js file including:
+```js
+config.messages.initialMessage = "update";
+config.messages.waitMessage = "updating...";
+config.messages.finishMessage = "done!";
+
+config.execute = "scripts/script.sh";
+config.web.port = 3000;
+```
 
 ### Development
 
