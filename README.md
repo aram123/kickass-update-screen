@@ -36,6 +36,12 @@ config.execute = "scripts/script.sh";
 config.web.port = 3000;
 ```
 
+### Upgrading to latest version
+kickass-update-screen can be easily updated using the git utility inside the project.
+```bash
+$ git pull origin master
+```
+
 ### Development
 
 Want to contribute? Great!
