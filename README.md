@@ -43,7 +43,7 @@ $ git pull origin master
 ```
 
 ### Troubleshooting
-##### node: not found
+#### node: not found
 Some Ubuntu setups can be kind of shady having two nodejs packages, if you're encountered an error like the following
 it can be solved by installing the nodejs-legacy package
 ```sh
