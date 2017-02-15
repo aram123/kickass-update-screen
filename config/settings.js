@@ -9,6 +9,6 @@ config.messages.waitMessage = "updating...";
 config.messages.finishMessage = "done!";
 
 config.execute = "scripts/script.sh";
-config.web.port = 8080;
+config.web.port = 3000;
 
 module.exports = config;
