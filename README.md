@@ -42,6 +42,25 @@ kickass-update-screen can be easily updated using the git utility inside the pro
 $ git pull origin master
 ```
 
+### Troubleshooting
+##### node: not found
+Some Ubuntu setups can be kind of shady having two nodejs packages, if you're encountered an error like the following
+it can be solved by installing the nodejs-legacy package
+```sh
+sh: 1: node: not found
+
+npm ERR! Linux 4.4.0-21-generic
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v4.2.6
+npm ERR! npm  v3.5.2
+npm ERR! file sh
+npm ERR! code ELIFECYCLE
+npm ERR! errno ENOENT
+npm ERR! syscall spawn
+npm ERR! kickass-update-screen@0.0.0 start: `node ./bin/www`
+npm ERR! spawn ENOENT
+
+```
 ### Development
 
 Want to contribute? Great!
